@@ -1,0 +1,172 @@
+.footer {
+  display: flex;
+  background: #ffeed1;
+}
+
+hr {
+  margin-top: 150px;
+  background: #935f31;
+  color: #935f31;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.footer-container {
+  max-width: 1500px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  width: auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.footer-link-items > h2 {
+  font-size: 18px;
+  color: #935f31;
+}
+
+.footer-link-items > a {
+  color: #935f31;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+/* social media */
+
+.social-media {
+  width: 100%;
+  max-width: 1500px;
+  margin-bottom: 20px;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1500px;
+  margin: 80px auto 0 auto;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 1.8rem;
+  margin-right: 8 px;
+}
+
+.footer-logo {
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+  align-items: center;
+  color: #935f31;
+}
+
+.copyright {
+  color: #935f31;
+}
+
+.social-media-link {
+  color: #935f31;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    width: 80%;
+  }
+
+  .footer-links {
+    justify-content: space-around;
+  }
+
+  .footer-link-items {
+    width: auto;
+  }
+
+  .footer-link-items > h2 {
+    font-size: 14px;
+  }
+
+  .footer-link-items > a {
+    font-size: 12px;
+  }
+
+  .footer-logo {
+    font-size: 12px;
+    width: auto;
+  }
+
+  .footer-logo img {
+    width: 18px;
+    margin-right: 4px;
+  }
+
+  .social-media-icons {
+    font-size: 12px;
+    width: 100px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer-link-items > h2 {
+    font-size: 10px;
+  }
+
+  .footer-link-items > a {
+    font-size: 8px;
+  }
+
+  .footer-logo img {
+    width: 10px;
+    margin-right: 3px;
+  }
+
+  .footer-logo {
+    font-size: 6px;
+    width: auto;
+  }
+
+  .social-media-icons {
+    font-size: 6px;
+    width: 50px;
+  }
+
+  .copyright {
+    font-size: 6px;
+    width: auto;
+  }
+}

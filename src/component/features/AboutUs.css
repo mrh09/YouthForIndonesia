@@ -1,0 +1,163 @@
+.aboutus {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus-container {
+  max-width: 1500px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  justify-content: center;
+}
+
+.img-yfi {
+  margin-top: 50px;
+  width: 500px;
+}
+
+.aboutus-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.aboutus-wrapper p {
+  text-align: center;
+  color: #935f31;
+}
+
+.form-wrapper {
+  margin: 75px 0;
+}
+
+.form-row {
+  display: flex;
+}
+
+.contact-col,
+.information-col {
+  width: 50%;
+}
+
+.contact-col {
+  background: #ffeed1;
+  border-radius: 10px 0 0 10px;
+}
+
+.information-col {
+  background: #f2c27d;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: #935f31;
+  margin: 40px 30px;
+}
+
+.information-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin: 40px 30px;
+}
+
+.contact-col h3,
+.information-col h3 {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.information-section {
+  margin: 25px 0;
+}
+
+.form-button {
+  background-color: #f2c27d;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-align: center;
+  width: max-content;
+}
+
+.form-button:hover {
+  background-color: #935f31;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-form input {
+  height: 24px;
+  border-radius: 5px;
+  border: 2px solid #935f31;
+  font-size: 16px;
+  color: #935f31;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.contact-form textarea {
+  height: 128px;
+  border-radius: 5px;
+  border: 2px solid #935f31;
+  font-size: 16px;
+  color: #935f31;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.information-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.information-section label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 720px) {
+  .img-yfi {
+    width: 85%;
+  }
+
+  .aboutus-wrapper p {
+    font-size: 12px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-col,
+  .information-col {
+    width: 80%;
+  }
+
+  .contact-col {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .information-col {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .information-section {
+    font-size: 16px;
+  }
+
+  .information-section label {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+}
